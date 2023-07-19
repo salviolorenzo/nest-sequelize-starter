@@ -3,7 +3,7 @@ import { UserService } from './user.service';
 import { UserController } from './user.controller';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { PlaidItem } from 'sequelize/models/plaid-item.model';
-import { User } from 'sequelize/models/user.model';
+import { User } from 'src/sequelize/models/user.model';
 import { PlaidService } from 'src/plaid/plaid.service';
 
 @Module({

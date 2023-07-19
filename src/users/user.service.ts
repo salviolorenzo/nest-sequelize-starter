@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
-import { User } from 'sequelize/models/user.model';
+import { User } from 'src/sequelize/models/user.model';
 import { PlaidService } from 'src/plaid/plaid.service';
 
 @Injectable()

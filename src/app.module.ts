@@ -5,7 +5,7 @@ import configuration from './config/configuration';
 import { LoggerMiddleware } from './middleware/logger.middleware';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { User } from 'sequelize/models/user.model';
+import { User } from 'src/sequelize/models/user.model';
 import { UsersModule } from './users/user.module';
 
 @Module({
