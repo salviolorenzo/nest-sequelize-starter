@@ -1,0 +1,5 @@
+module.exports = {
+  config: path.resolve('sequelize', 'config', 'database.json'),
+  'migrations-path': path.resolve('sequelize', 'migrations'),
+  'models-path': path.resolve('sequelize', 'models'),
+};
